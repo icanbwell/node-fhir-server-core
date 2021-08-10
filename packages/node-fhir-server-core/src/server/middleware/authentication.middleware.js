@@ -14,8 +14,11 @@ module.exports = function authenticationMiddleware(config) {
 
   // if strategy is configured
   if (config.auth && config.auth.strategy) {
-    let { name, useSession = false } = config.auth.strategy;
-    return passport.authenticate(name, { session: useSession });
+    let {name, useSession = false} = config.auth.strategy;
+    return passport.authenticate(name, {
+      session: useSession,
+      failureRedirect: config.auth.failureRedirect
+    });
   } else {
     return noOpMiddleware;
   }
