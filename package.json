@@ -1,15 +1,15 @@
 {
   "name": "node-fhir-server-core-project",
-  "private": true,
+  "private": false,
   "version": "2.0.11",
   "description": "Node FHIR Rest API Server and surrounding ecosystem",
-  "homepage": "https://github.com/Asymmetrik/node-fhir-server-core#readme",
+  "homepage": "https://github.com/icanbwell/node-fhir-server-core#readme",
   "bugs": {
-    "url": "https://github.com/Asymmetrik/node-fhir-server-core/issues"
+    "url": "https://github.com/icanbwell/node-fhir-server-core/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Asymmetrik/node-fhir-server-core.git"
+    "url": "git+https://github.com/icanbwell/node-fhir-server-core.git"
   },
   "license": "MIT",
   "author": "Asymmetrik Ltd.",
